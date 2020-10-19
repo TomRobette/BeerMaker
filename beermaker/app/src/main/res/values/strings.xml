@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">BeerMaker</string>
+
+    <string name="head_title_1">Étapes de fabrication</string>
+    <string name="titre_0">Au préalable</string>
+    <string name="text_0">Vous allez avoir besoin du matériel suivant pour réaliser votre bière :\n Une dame-jeanne \n -un barboteur \n -un thermomètre \n  -un tuyau d’extraction avec un embout anti-lie \n  -plusieurs casseroles \n  -une cuillère percée \n  -une passoire à mailles fines \n -bouteilles en verre à clapet \n Le matériel utile à la fabrication doit être propre et stérilisé. Nous vous conseillons d’utiliser un désinfectant en poudre vendu dans le commerce et de vous fier aux instruction (à diluer dans de l’eau dans laquelle il faut faire tremper le matériel quelques minutes)</string>
+    <string name="titre_1">1- L\'empâtage</string>
+    <string name="text_1">Note: Le malt blond peut s\'utiliser seul. Les malts plus foncés ne s’utilisent qu’en petite dose pour moduler le goût de la bière. Si vous avez achetez du malt en grain entier, le concasser avec un moulin à céréales, un mixer ou encore un rouleau à pâtisserie.  Définissez la quantité d’eau de brassage nécessaire, puis versez la dans une grande casserole. \n Porter cette eau à une température de 50 °C en vérifiant avec le thermomètre, puis ajouter le malt concassé.</string>
+    <string name="titre_2">2- Le brassage par paliers</string>
+    <string name="text_2">Brasser la mixture malt+eau, appelée maîshe, pendant 30 min, à 40°C environ. Remuer avec une grande cuillère percée durant la chauffe et laisser reposer une fois la température du palier atteinte. Monter en température la maîshe à 60-65°C et maintenir cette température environ 30 min. Augmenter la température à 68-70°C et maintenir cette température environ 30 min. Augmenter la température à 78°C et maintenir cette température environ 30 min.</string>
+    <string name="titre_3">3- Filtrer la maîshe</string>
+    <string name="text_3">Au dessus d’une seconde casserole, verser la maîshe dans une grande passoie (tapisser si besoin d’un linge propre) pour obtenir la drêche (résidu solide du malt).\n Pour récupérer les sucres restants dans la drêche égouttée, verser au-dessus de la drêche l’eau de rinçage préalablement montée à 80°C. L’eau de brassage associé à l’eau de rinçage s’appelle le moût. Les résidus de malt sont compostables.</string>
+    <string name="titre_4">4- Le houblonnage</string>
+    <string name="text_4">Calculer la quantité de houblon à ajouter. Différentes recettes existent, les houblons peuvent être complétés par des épices. Faites bouillir le moût. Dès que l\'ébullition commence, écumer et ajouter le houblon amer. Laisser bouillir ce mélange sans couvrir pendant 1h30 pour retirer de l’amertume. 10-15 minutes avant la fin de cette ébullition, ajouter le houblin aromatique. Retirer le houblon en le filtrant. Éviter cette étape en plaçant le houblon dans un filtre à thé en papier. Le choix du houblon doit être fait en fonction de son taux IBU qui est l’unité d’amertume.</string>
+    <string name="titre_5">5- La fermentation</string>
+    <string name="text_5">Le moût doit être refroidi à une température de 20-25°C pour y incorporer les levures puis transvasé dans la dame-jeanne.\n Il existe différentes levures. Nous vous recommandons d’utiliser des levures sèches qui sont mieux adaptées pour des petits brassins.\n  Se référer à l’emballage pour déterminer au mieux la quantité appropriée. Il est recommandé d’utiliser pour débuter de la levure S33 qui est polyvalente. Incorporer la levure et remuer la bonbonne pour mélanger. Dans une pièce à 20°C, fermer la bonbonne et placer le barboter (qui permet d’évacuer l’oxygène).\n Durant environ une semaine, les levures vont travailler et générer du CO2 dans la bonbonne, qui va s’évacuer par le barboteur. Remuer de temps en temps la bonbonne pour faire évacuer le CO2.\n Lorsqu’il n’y a plus d’activité dans le barboteur, mettre la bouteille de fermentation dans une pièce plus fraîche (autour de 10-15°C, comme une cave par exemple).\n La bière peut ainsi maturer pendant 1 à 3 semaines, cette période de fermentation secondaire se nomme la garde. Ajouter selon recette des épices, fruits, ...</string>
+    <string name="titre_6">6- Le sucrage</string>
+    <string name="text_6">Pour relancer la fermentation qui se fera en bouteille et qui permet d’obtenir de la mousse, incorporer 4 à 6 g de sucre par litre de bière. </string>
+    <string name="titre_7">7- La mise en bouteille</string>
+    <string name="text_7">Mettre en bouteille (stérilisées et séchées) en utilisant un tuyau d\'extraction avec embout anti-lie.\n Le but est de récupérer le liquide clair et d’éliminer les précipités et dépots. placer l’embout anti-lie sur le fond de la bonbonne et l’autre bout au fond de la bouteille. La bonbonne doit être placée très en hauteur par rapport à la bouteille.\n Utiliser des bouteilles en verre teinté propres et sèches, qui ferment avec un bouchon à vis ou à clapet. Les bouteilles doivent être conservées verticalement.\n  Pendant une semaine conserver ces bouteilles à 20°C. Puis pendant 4 à 8 semaines, les gardes au frais, entre 6 et 10°C.\n La bière se conserve 1 an, idéalement entre 10 et 15°C à l’abri de la lumière ou simplement au réfrigérateur.</string>
+    <string name="back">Retour</string>
+    <string name="next">Suivant</string>
+
+    <string name="head_title_2">Outils de fabrication</string>
+    <string name="outils_txt_1">Volume d\'alcool à fabriquer :</string>
+    <string name="outils_txt_2">L</string>
+    <string name="outils_txt_3">Degré d\'alcool recherché :</string>
+    <string name="outils_txt_4">%</string>
+    <string name="outils_txt_5">Moyenne EBC des grains utilisés :</string>
+    <string name="outils_txt_6">EBC</string>
+    <string name="outils_bt_cal">CALCULER</string>
+    <string name="outils_des_1">Quantité de malt : </string>
+    <string name="outils_des_2">Volume eau de brassage : </string>
+    <string name="outils_des_3">Volume eau de rinçage :</string>
+    <string name="outils_des_4">Quantité de houblon amérisant :</string>
+    <string name="outils_des_5">Quantité de houblon aromatique :</string>
+    <string name="outils_des_6">Quantité de levure :</string>
+    <string name="outils_des_7">Colorimétrie</string>
+    <string name="outils_des_8">MCU = </string>
+    <string name="outils_des_9">EBC = </string>
+    <string name="outils_des_10">SRM = </string>
+    <string name="outils_bt_save">ENREGISTRER LA RECETTE</string>
+
+
+    <string name="head_title_3">Mes recettes</string>
+    <string name="to_recette">Voir</string>
+    <string name="remove_recette">Supprimer</string>
+</resources>
