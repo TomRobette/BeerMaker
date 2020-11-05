@@ -20,12 +20,8 @@ public class Activity3 extends AppCompatActivity implements MyAdapter.Listener{
     }
 
     private void init() {
-
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-        System.out.println("taille : "+localAccess.getAll().get(2).color);
         recyclerView.setAdapter(new MyAdapter(this, localAccess.getAll(), localAccess));
     }
 
@@ -34,5 +30,10 @@ public class Activity3 extends AppCompatActivity implements MyAdapter.Listener{
         Intent intent = new Intent(Activity3.this, Activity2.class);
         intent.putExtra("recette", position);
         startActivity(intent);
+    }
+
+    @Override
+    public void supprBtn(int position) {
+        init();
     }
 }

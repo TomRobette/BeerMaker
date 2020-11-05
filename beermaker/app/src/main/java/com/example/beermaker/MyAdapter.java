@@ -12,6 +12,7 @@ import java.util.List;
 public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
     public interface Listener {
         void onClickButton(int position);
+        void supprBtn(int position);
     }
 
     private final Listener callback;
@@ -44,8 +45,5 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
     public int getItemCount() {
         return list.size();
     }
-
-
-
 
 }

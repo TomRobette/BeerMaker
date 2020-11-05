@@ -17,6 +17,7 @@ public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClic
     private TextView id, color;
     private ConstraintLayout color_box;
     private Button bt_to_recette, bt_remove_recette;
+    private View itemView;
 
     private WeakReference<MyAdapter.Listener> callbackWeakRef;
     private LocalAccess localAccess;
@@ -24,11 +25,13 @@ public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClic
     //itemView est la vue correspondante à 1 cellule
     public MyViewHolder(View itemView, LocalAccess localAccess) {
         super(itemView);
+        this.itemView=itemView;
         id = itemView.findViewById(R.id.id_recette);
         color = itemView.findViewById(R.id.color_recette);
         color_box = itemView.findViewById(R.id.color_box);
         bt_to_recette = itemView.findViewById(R.id.bt_to_recette);
         bt_remove_recette = itemView.findViewById(R.id.bt_remove_recette);
+        this.localAccess=localAccess;
 
     }
 
@@ -39,18 +42,10 @@ public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClic
         color.setText(recette.color);
         color_box.setBackgroundColor(Color.parseColor(recette.color));
         bt_to_recette.setOnClickListener(this);
-        bt_remove_recette.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                try {
-                    localAccess.removeById(Integer.parseInt(id.getText().toString()));
-                }catch (Exception e){
-
-                }
-            }
-        });
-
         this.callbackWeakRef = new WeakReference<MyAdapter.Listener>(callback);
+        DeleteViewHolder viewHolder = new DeleteViewHolder(itemView, localAccess, callbackWeakRef, id);
+        bt_remove_recette.setOnClickListener(viewHolder);
+
 
 
     }

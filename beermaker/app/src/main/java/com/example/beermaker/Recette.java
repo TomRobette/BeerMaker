@@ -46,9 +46,7 @@ public class Recette {
         houblonAm = volAlc*3;
         houblonAr = volAlc;
         levure = volAlc/2;
-
     }
-
 
     private String srmToRGB(double srm) {
 // Returns an RGB value based on SRM

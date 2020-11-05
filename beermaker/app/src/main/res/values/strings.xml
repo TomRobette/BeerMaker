@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">BeerMaker</string>
+    <string name="menu_0">Étapes de Fabrication</string>
+    <string name="menu_1">Outils de Fabrication</string>
+    <string name="menu_2">Vos recette</string>
 
     <string name="head_title_1">Étapes de fabrication</string>
     <string name="titre_0">Au préalable</string>
